@@ -1,0 +1,130 @@
+[
+  {
+    "model": "network.networklink",
+    "pk": 1,
+    "fields": {
+      "network": "plant",
+      "name": "Завод техники",
+      "email": "tehplant_sz@mail.ru",
+      "country": "Россия",
+      "city": "Сызрань",
+      "street": "Онежская",
+      "house_number": "12б",
+      "products": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "hierarchy": 0,
+      "created_at": "2024-02-13T15:58:44.767594-06:00"
+    }
+  },
+  {
+    "model": "network.networklink",
+    "pk": 2,
+    "fields": {
+      "network": "plant",
+      "name": "Ферма",
+      "email": "farm_msk@mail.ru",
+      "country": "Россия",
+      "city": "Москва",
+      "street": "Набережная",
+      "house_number": "131",
+      "products": [
+        5,
+        6,
+        7
+      ],
+      "hierarchy": 0,
+      "created_at": "2024-02-13T15:58:44.767594-06:00"
+    }
+  },
+  {
+    "model": "network.networklink",
+    "pk": 3,
+    "fields": {
+      "network": "retail_network",
+      "name": "ООО DMS",
+      "email": "dms_inter@mail.ru",
+      "country": "Россия",
+      "city": "Новосибирск",
+      "street": "Дачная",
+      "house_number": "137",
+      "products": [
+        2,
+        3,
+        8,
+        9
+      ],
+      "purveyor": 1,
+      "debt": 157033.67,
+      "hierarchy": 1,
+      "created_at": "2024-02-13T15:58:44.767594-06:00"
+    }
+  },
+  {
+    "model": "network.networklink",
+    "pk": 4,
+    "fields": {
+      "network": "retail_network",
+      "name": "ОАО IDEA",
+      "email": "idea_rus@mail.ru",
+      "country": "Россия",
+      "city": "Калининград",
+      "street": "Интернациональная",
+      "house_number": "15",
+      "products": [
+        8,
+        9
+      ],
+      "purveyor": 3,
+      "debt": 1033.83,
+      "hierarchy": 2,
+      "created_at": "2024-02-13T15:58:44.767594-06:00"
+    }
+  },
+  {
+    "model": "network.networklink",
+    "pk": 5,
+    "fields": {
+      "network": "individual_entrepreneur",
+      "name": "ИП Волков",
+      "email": "volk_ov@mail.ru",
+      "country": "Россия",
+      "city": "Красноярск",
+      "street": "Беговая",
+      "house_number": "4а",
+      "products": [
+        5,
+        6,
+        7
+      ],
+      "purveyor": 2,
+      "debt": 0.17,
+      "hierarchy": 1,
+      "created_at": "2024-02-13T15:58:44.767594-06:00"
+    }
+  },
+  {
+    "model": "network.networklink",
+    "pk": 6,
+    "fields": {
+      "network": "individual_entrepreneur",
+      "name": "ИП Колесников",
+      "email": "tech_msk@mail.ru",
+      "country": "Россия",
+      "city": "Москва",
+      "street": "Орудийная",
+      "house_number": "157",
+      "products": [
+        2,
+        3
+      ],
+      "purveyor": 3,
+      "debt": 89567.03,
+      "hierarchy": 2,
+      "created_at": "2024-02-13T15:58:44.767594-06:00"
+    }
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "model": "network.product",
+    "pk": 1,
+    "fields": {
+      "name": "Телевизор",
+      "model": "QUNDUNDEN",
+      "release_date": "2024-02-12"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 2,
+    "fields": {
+      "name": "Роутер",
+      "model": "RTL8812",
+      "release_date": "2024-02-12"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 3,
+    "fields": {
+      "name": "Модем",
+      "model": "VZWE7809",
+      "release_date": "2024-02-13"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 4,
+    "fields": {
+      "name": "Телефон",
+      "model": "FU-23FF",
+      "release_date": "2024-02-13"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 5,
+    "fields": {
+      "name": "Рассада",
+      "release_date": "2024-02-13"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 6,
+    "fields": {
+      "name": "Мандариновое дерево",
+      "release_date": "2024-02-13"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 7,
+    "fields": {
+      "name": "Известь",
+      "release_date": "2024-02-13"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 8,
+    "fields": {
+      "name": "Дрель",
+      "model": "АГ-453-223",
+      "release_date": "2024-02-13"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 9,
+    "fields": {
+      "name": "Гайковёрт",
+      "model": "МВ-144",
+      "release_date": "2024-02-13"
+    }
+  }
+]
