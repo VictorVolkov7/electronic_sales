@@ -21,12 +21,10 @@ Dockerfile
 
 # Distribution / packaging
 .Python
-build/
 develop-eggs/
 dist/
 downloads/
 eggs/
-lib/
 lib64/
 parts/
 sdist/
@@ -79,3 +77,6 @@ venv/
 
 # example
 *.example
+
+/readme_img
+README.md
