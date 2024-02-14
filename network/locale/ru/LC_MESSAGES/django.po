@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-13 18:24+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+#: admin.py:33 models.py:87
+msgid "Purveyor"
+msgstr "Поставщик"
+
+#: admin.py:35
+msgid "Clear debt to purveyor"
+msgstr "Очистить задолженность перед поставщиком"
+
+#: models.py:7
+msgid "Plant"
+msgstr "Завод"
+
+#: models.py:8
+msgid "Retail network"
+msgstr "Розничная сеть"
+
+#: models.py:9
+msgid "Individual entrepreneur"
+msgstr "Индивидуальный предприниматель"
+
+#: models.py:18 models.py:52
+msgid "Name"
+msgstr "Название"
+
+#: models.py:24
+msgid "Model"
+msgstr "Модель"
+
+#: models.py:30
+msgid "Release date"
+msgstr "Дата выхода продукта"
+
+#: models.py:37
+msgid "Product"
+msgstr "Продукт"
+
+#: models.py:38 models.py:81
+msgid "Products"
+msgstr "Продукты"
+
+#: models.py:48
+msgid "Network"
+msgstr "Тип"
+
+#: models.py:57
+msgid "Email"
+msgstr "Почта"
+
+#: models.py:61
+msgid "Country"
+msgstr "Страна"
+
+#: models.py:65
+msgid "City"
+msgstr "Город"
+
+#: models.py:69
+msgid "Street"
+msgstr "Улица"
+
+#: models.py:73
+msgid "House number"
+msgstr "Номер дома"
+
+#: models.py:95
+msgid "Debt"
+msgstr "Задолженность"
+
+#: models.py:96
+msgid "You indicate the debt to the supplier in monetary terms from the moment to the penny."
+msgstr "Задолженность перед поставщиком в денежном выражении с точностью до копеек."
+
+#: models.py:100
+msgid "Created at"
+msgstr "Время создания"
+
+#: models.py:104
+msgid "Hierarchy"
+msgstr "Уровень иерархии"
+
+#: models.py:105
+msgid "Hierarchy must be between 0 and 2."
+msgstr "Иерархия должна быть от 0 до 2."
+
+#: models.py:120
+msgid "He cannot be his own purveyor."
+msgstr "Не может поставлять товар себе."
+
+#: models.py:122
+msgid "Hierarchy level exceeded."
+msgstr "Превышен уровень иерархии."
+
+#: models.py:124
+msgid "Debt must be greater than 0."
+msgstr "Задолженность должна быть больше 0."
+
+#: models.py:130
+msgid "The purveyor must have this link in the network."
+msgstr "Данное звено сети должно иметь поставщика."
+
+#: models.py:138
+msgid "There is no supplier to display the debt."
+msgstr "Нет поставщика для отображения задолженности."
+
+#: models.py:143
+msgid "Network link"
+msgstr "Звено сети"
+
+#: models.py:144
+msgid "Network links"
+msgstr "Звенья сети"
